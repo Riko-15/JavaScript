@@ -1,6 +1,7 @@
 img {
   width: 100%;
   height: auto;
+  vertical-align: top;
 }
 
 * {
@@ -11,7 +12,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 500px;
   background: url(../img/mv.png) no-repeat;
   color: #fff;
   margin-bottom: 70px;
@@ -20,4 +21,48 @@ img {
 .firstview__catchcopy {
   font-size: 40px;
   font-weight: bold;
+}
+
+.firstview__catchcopy p {
+  font-size: 15px;
+  text-align: center;
+}
+
+.about {
+  margin-bottom: 70px;
+  background-color: black;
+  color: #fff;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.section__ttl {
+  font-size: 30px;
+  padding-top: 40px;
+  text-align: left;
+  left: 30px;
+}
+
+.about p {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.blog {
+  max-width: 1000px;
+  margin: 0 auto 70px;
+}
+
+.blog__parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog__child {
+  width: 30%;
+}
+
+.blog__child img {
+  margin-bottom: 20px;
 }
