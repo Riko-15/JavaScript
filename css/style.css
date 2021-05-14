@@ -43,17 +43,40 @@ img {
   padding-right: 120px;
 }
 
+.about p {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.service {
+  display: inline block;
+  display: -webkit-flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.service title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.pic01,
+.pic02,
+.pic03,
+.pic04 {
+  width: 450px;
+}
+
+.pic_frame {
+  display: inline-block;
+}
+
 .section__ttl {
   font-size: 30px;
   padding-top: 40px;
   text-align: left;
   left: 30px;
-}
-
-.about p {
-  text-align: center;
-  padding-top: 60px;
-  padding-bottom: 100px;
 }
 
 .blog {
