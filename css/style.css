@@ -2,7 +2,11 @@
   height: 50px;
 }
 
-.header h2 {
+.header h1 {
+  text-align: left;
+}
+
+.header p {
   text-align: right;
 }
 
@@ -30,7 +34,7 @@ img {
   font-weight: bold;
 }
 
-.firstview__catchcopy p {
+.firstview__catchcopy h2 {
   font-size: 15px;
   text-align: center;
 }
@@ -49,23 +53,25 @@ img {
   padding-bottom: 100px;
 }
 
+.service__title {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 40px;
+}
 .service {
+  margin: 0 auto;
   display: inline block;
   display: -webkit-flex;
   -webkit-justify-content: space-around;
   justify-content: space-around;
 }
 
-.service title {
-  font-size: 30px;
-  text-align: center;
-}
-
 .pic01,
 .pic02,
 .pic03,
 .pic04 {
-  width: 450px;
+  width: 480px;
 }
 
 .pic_frame {
