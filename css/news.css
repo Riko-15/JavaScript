@@ -1,0 +1,33 @@
+.firstview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background: url(../img/mv.png) no-repeat;
+  color: #fff;
+  margin-bottom: 70px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+* {
+  line-height: 1.7;
+}
+
+.firstview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background: url(../img/mv.png) no-repeat;
+  color: #fff;
+}
+
+.firstview__catchcopy {
+  font-size: 40px;
+  font-weight: bold;
+}
