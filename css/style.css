@@ -53,15 +53,36 @@ img {
   padding-bottom: 100px;
 }
 
+.service__ttl {
+  font-size: 30px;
+  margin: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
 .service_container {
   display: inline-flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.item {
+  width: 49%;
+}
+
+.service_btn {
+  width: 300px;
+  color: white;
+  background-color: red;
+  margin: 40px;
+  padding: 10px;
+  text-align: center;
 }
 
 .news {
   background-color: black;
   width: 100%;
-  height: 50%;
+  height: 400px;
 }
 
 .section__ttl {
