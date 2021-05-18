@@ -93,6 +93,10 @@ img {
   margin: 0;
 }
 
+.news_parent {
+  display: flex;
+}
+
 .news__ttl {
   font-size: 30px;
   padding: 40px;
