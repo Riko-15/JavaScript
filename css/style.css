@@ -102,10 +102,13 @@ img {
   padding: 40px;
   font-weight: bold;
   color: white;
+  height: 30px;
+  width: 100px;
 }
 
 .news_ttl_btn {
   width: 200px;
+  height: 30px;
   color: white;
   background-color: red;
   margin-left: 800px;
